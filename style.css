@@ -1,0 +1,80 @@
+body.index{
+  background-image: url(Foto/achtergrond.jpg);
+  background-size: cover;
+}
+
+body.pagina1{
+  background-image: url(Foto/achtergrond2.jpg);
+  background-size: cover;
+  color: white;
+}
+
+body.pagina2{
+  background-image: url(Foto/achtergrond2.jpg);
+  color: white;
+}
+
+body.pagina3{
+  background-image: url(Foto/achtergrond3.jpg);
+  color: white;
+}
+
+body.pagina4{
+  background-image: url(Foto/achtergrond4.jpg);
+  color: white;
+
+}
+
+div{
+    border: 2px lightblue;
+    margin: auto;
+    width: 50%;
+    background-color: none;
+    margin-top: 100px;
+}
+
+div.navigatie{
+  width:70%;
+  margin:auto;
+}
+
+li{
+  align: center;
+  display: inline-block;
+  color: blue;
+  background-color: white;
+  padding:10px;
+  border-radius: 10px;
+  border: 1px solid black
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover{
+  color: lightblue;
+}
+
+.foto{
+    float: right;
+    height: 300px;
+    margin-right: 200px;
+    margin-top: 100px;
+    border: 2px solid white;
+
+a:link, a:visited {
+    background-color:lightblue;
+    color: blue;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3%
+}
+
+a:hover, a:active {
+  background-color: white;
+}
